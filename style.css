@@ -45,7 +45,7 @@ header .container {
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
 }
 
 nav ul {
@@ -69,7 +69,7 @@ nav a:hover {
 }
 
 main {
-    padding-top: 80px; /* Offset for fixed header */
+    padding-top: 130px; /* Adjusted for larger header */
 }
 
 section {
@@ -258,35 +258,4 @@ p.subtitle {
     color: var(--accent-color);
 }
 
-/* Footer */
-footer {
-    padding: 2rem 0;
-    text-align: center;
-    background-color: #081428;
-}
-
-/* Responsive */
-@media(max-width: 768px) {
-    h1 { font-size: 2.5rem; }
-    h2 { font-size: 2rem; }
-
-    nav ul { display: none; } /* Basic responsive: hide nav on small screens. Can be replaced with a hamburger menu. */
-    
-    #hero .hero-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .how-it-works-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .product-grid {
-        grid-template-columns: 1fr;
-    }
-    
-    .roadmap-phases {
-        grid-template-columns: 1fr;
-    }
-}
+/* Footer
